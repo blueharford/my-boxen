@@ -1,5 +1,6 @@
 class people::raryates::applications {
   include iterm2::stable
+  include chrome
 
   class {'virtualbox':
     version => '5.0.14',
