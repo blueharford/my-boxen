@@ -4,6 +4,8 @@ class people::raryates::applications {
   include spotify
   include hipchat
   include caffeine
+  include onepassword
+  include onepassword::chrome
   
   class {'spectacle': version => '1.0.3'}
 

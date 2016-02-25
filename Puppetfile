@@ -68,3 +68,4 @@ github "caffeine",    "1.0.0"
 github "spectacle",   "1.0.1", :repo => 'RARYates/puppet-spectacle'
 github "hipchat",     "1.1.3"
 github "spotify",     "1.0.2"
+github "onepassword", "1.1.5"
