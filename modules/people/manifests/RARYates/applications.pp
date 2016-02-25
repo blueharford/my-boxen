@@ -9,4 +9,10 @@ class people::raryates::applications {
 
   class {'vagrant': version => '1.8.1'}
 
+  package {'CheatSheet':
+    source   => 'https://www.mediaatelier.com/CheatSheet/download.php',
+    provider => compressed_app,
+    flavor   => 'zip',
+  }
+
 }
