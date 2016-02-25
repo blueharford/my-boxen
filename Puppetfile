@@ -60,6 +60,7 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "iterm2",      "1.2.5"
 # github "elasticsearch", "2.8.0"
 # github "mysql",         "2.0.1"
 # github "postgresql",  "4.0.1"
