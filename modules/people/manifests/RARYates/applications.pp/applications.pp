@@ -1,3 +1,3 @@
-class people::RARYates::applications {
+class people::raryates::applications {
   include iterm2::stable
 }

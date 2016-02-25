@@ -1,3 +1,3 @@
-class people::RARYates {
-  include people::RARYates::applications
+class people::raryates {
+  include people::raryates::applications
 }
