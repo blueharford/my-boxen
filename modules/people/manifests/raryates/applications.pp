@@ -1,6 +1,11 @@
 class people::raryates::applications {
   include iterm2::stable
   include chrome
+  include spotify
+  include hipchat
+  include caffeine
+  
+  class {'spectacle': version => '1.0.3'}
 
   class {'virtualbox':
     version => '5.0.14',
