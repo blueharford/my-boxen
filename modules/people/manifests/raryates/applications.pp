@@ -6,7 +6,8 @@ class people::raryates::applications {
   include caffeine
   include onepassword
   include onepassword::chrome
-  
+  include dropbox
+
   class {'spectacle': version => '1.0.3'}
 
   class {'virtualbox':
