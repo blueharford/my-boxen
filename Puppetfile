@@ -65,7 +65,7 @@ github "vagrant",     "3.3.4"
 github "virtualbox",  "1.0.13"
 github "chrome",      "1.2.0"
 github "caffeine",    "1.0.0"
-github "spectacle",   "1.0.1", :repo => 'RARYates/puppet-spectacle'
+github "shiftit",     "0.0.2"
 github "hipchat",     "1.1.3"
 github "spotify",     "1.0.2"
 github "onepassword", "1.1.5"
