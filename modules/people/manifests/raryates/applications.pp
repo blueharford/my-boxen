@@ -9,8 +9,8 @@ class people::raryates::applications {
   include dropbox
   include zsh
   include prezto
+  include shiftit
 
-  class {'spectacle': version => '1.0.3'}
 
   class {'virtualbox':
     version => '5.0.14',
