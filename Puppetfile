@@ -72,3 +72,4 @@ github "onepassword", "1.1.5"
 github "dropbox",     "1.4.1"
 github "zsh",         "1.0.0"
 github "osx",         "2.8.0"
+github "prezto",      "1.0.1", :repo => 'RARYates/puppet-prezto'

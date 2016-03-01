@@ -8,6 +8,7 @@ class people::raryates::applications {
   include onepassword::chrome
   include dropbox
   include zsh
+  include prezto
 
   class {'spectacle': version => '1.0.3'}
 
