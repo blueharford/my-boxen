@@ -6,6 +6,7 @@ class onyxpoint {
   include zsh
   include prezto
   include shiftit
+  include atom
 
 
   class {'virtualbox':
