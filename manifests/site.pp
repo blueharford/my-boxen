@@ -2,7 +2,7 @@ require boxen::environment
 require homebrew
 require gcc
 
-include onyxpoint
+include edge
 
 Exec {
   group       => 'staff',
