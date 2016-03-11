@@ -4,7 +4,12 @@ class edge {
   include zsh
   include shiftit
   include atom
+  include textwrangler
+  include sublime_text_2
 
+  sublime_text_2::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
 
   class {'vagrant': version => '1.8.1'}
 
@@ -18,5 +23,8 @@ class edge {
     source   => 'http://iweb.dl.sourceforge.net/project/cord/cord/0.5.7/CoRD_0.5.7.zip',
     provider => compressed_app,
   }
+
+  package { 'alfred': provider => 'brewcask' }
+  package { 'evernote': provider => 'brewcask' }
 
 }
