@@ -4,12 +4,6 @@ class edge {
   include zsh
   include shiftit
   include atom
-  include textwrangler
-  include sublime_text_2
-
-  sublime_text_2::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
-  }
 
   class {'vagrant': version => '1.8.1'}
 
